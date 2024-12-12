@@ -1,0 +1,213 @@
+@import "../fonts/geist-mono/stylesheet.css";
+@import "../fonts/geist-sans/stylesheet.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Geist Mono", serif;
+    color: #13171e;
+    margin-bottom: 0 !important;
+}
+
+.global-style {
+    @apply pb-20 text-sm md:text-md
+}
+
+p {
+    @apply md:text-md md:leading-[30px] leading-[25px]
+}
+
+h1 {
+    @apply text-3xl md:text-4xl font-semibold
+}
+
+h2 {
+    @apply text-2xl md:text-3xl font-semibold
+}
+
+h3 {
+    @apply text-xl md:text-2xl font-medium
+}
+
+h4 {
+    @apply text-lg md:text-xl font-medium
+}
+
+.emphasize {
+    @apply md:text-[50px] text-[34px]
+}
+
+@layer utilities {
+    .gridfour {
+        @apply grid grid-cols-1 md:grid-cols-4
+    }
+    .big {
+        @apply text-[50px] uppercase text-primary
+    }
+    .menu-item {
+        @apply bg-transparent text-md text-primary p-0 dark:text-primary;
+    }
+    .mobile-menu-item {
+        @apply block py-4 px-3 font-normal rounded;
+    }
+    .mobile-menu-item-active {
+        @apply text-primary bg-gray-100;
+    }
+
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+
+    .flex-between {
+        @apply flex justify-between items-center;
+    }
+
+    .flex-start {
+        @apply flex justify-start items-center;
+    }
+
+    .card-wrapper {
+        @apply bg-light-900 dark:dark-gradient shadow-light-100 dark:shadow-dark-100;
+    }
+
+    .btn {
+        @apply bg-light dark:bg-dark-300 !important;
+    }
+
+    .btn-secondary {
+        @apply bg-light dark:bg-dark !important;
+    }
+
+    .btn-tertiary {
+        @apply bg-light-700 dark:bg-dark-300 !important;
+    }
+
+    .markdown {
+        @apply max-w-full prose dark:prose-p:text-light-700 dark:prose-ol:text-light-700 dark:prose-ul:text-light dark:prose-strong:text-white dark:prose-headings:text-white prose-headings:text-dark-400 prose-h1:text-dark-300 prose-h2:text-dark-300 prose-p:text-dark-500 prose-ul:text-dark-500 prose-ol:text-dark-500;
+    }
+
+    .primary-gradient {
+        background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
+    }
+
+    .dark-gradient {
+        background: linear-gradient(
+            232deg,
+            rgba(23, 28, 35, 0.41) 0%,
+            rgba(19, 22, 28, 0.7) 100%
+        );
+    }
+
+    .tab {
+        @apply min-h-full dark:bg-dark bg-light text-light !important;
+    }
+}
+
+.no-focus {
+    @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
+}
+
+.active-theme {
+    filter: invert(53%) sepia(98%) saturate(3332%) hue-rotate(0deg)
+    brightness(104%) contrast(106%) !important;
+}
+
+.light-gradient {
+    background: linear-gradient(
+        132deg,
+        rgba(247, 249, 255, 0.5) 0%,
+        rgba(229, 237, 255, 0.25) 100%
+    );
+}
+
+.primary-text-gradient {
+    background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Clerk */
+.cl-internal-b3fm6y {
+    background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%) !important;
+}
+
+.hash-span {
+    margin-top: -140px;
+    padding-bottom: 140px;
+    display: block;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.absolute-center {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+}
+.absolute-right {
+    @apply absolute top-0 right-0 transform
+}
+
+.md-absolute-center {
+    @apply md:absolute md:left-[50%] md:top-[50%] md:translate-x-[-50%] md:translate-y-[-50%]
+}
+
+
+/* TABS */
+.tab-pin {
+    @apply inline-block px-4 py-2 rounded-2xl cursor-pointer
+}
+.tab-pin-active {
+    @apply text-primary border border-primary
+}
+
+.crossed {
+    background:
+        linear-gradient(to top left,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0) calc(50% - 0.8px),
+        rgb(255, 255, 255) 50%,
+        rgba(0,0,0,0) calc(50% + 0.8px),
+        rgba(0,0,0,0) 100%),
+        linear-gradient(to top right,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0) calc(50% - 0.8px),
+        rgb(255, 255, 255) 50%,
+        rgba(0,0,0,0) calc(50% + 0.8px),
+        rgba(0,0,0,0) 100%);
+}

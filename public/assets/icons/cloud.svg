@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wind-sun-svgrepo-com-2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Альтернативная-энергетика" transform="translate(-243.000000, -3004.000000)" stroke="#166155" stroke-width="3">
+            <g id="wind-sun-svgrepo-com-2" transform="translate(245.000000, 3006.000000)">
+                <path d="M42.8421053,35 C45.9294737,35 48,32.9338235 48,29.8529412 C48,26.7727941 45.9294737,23.2352941 42.8421053,23.2352941 C42.8421053,15.5330882 35.8236842,10 28.1052632,10 C21.274,10 15.3225263,14.5669118 14.1052632,21.0294118 C14.1052632,21.0294118 13.1974737,21.0294118 12.6315789,21.0294118 C8.772,21.0294118 6,24.5308824 6,28.3823529 C6,32.2338235 8.772,35 12.6315789,35" id="Path" stroke-linecap="round"></path>
+                <path d="M24,10.0277895 C22.4242107,8.75747368 20.4412591,8 18.2861565,8 C13.1573408,8 9,12.2884211 9,17.5789474 C9,19.4777895 9.50502405,20.5108421 10.4286395,22" id="Path"></path>
+                <line x1="4" y1="17.5" x2="0" y2="17.5" id="Path" stroke-linecap="round"></line>
+                <line x1="17.5" y1="4" x2="17.5" y2="0" id="Path" stroke-linecap="round"></line>
+                <line x1="8" y1="8" x2="4" y2="4" id="Path" stroke-linecap="round"></line>
+                <path d="M21.5714286,44.5 C21.5714286,46.4327 23.2339429,48 25.2857143,48 C27.3374857,48 29,46.4327 29,44.5 C29,42.5673 27.3374857,41 25.2857143,41 L3,41" id="Path" stroke-linecap="round"></path>
+                <path d="M31.6086957,31.5 C31.6086957,29.5673 33.2628696,28 35.3043478,28 C37.3458261,28 39,29.5673 39,31.5 C39,33.4327 37.3458261,35 35.3043478,35 L5,35" id="Path" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

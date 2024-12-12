@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('GeistMono-Light.eot');
+    src: local('Geist Mono Light'), local('GeistMono-Light'),
+    url('GeistMono-Light.eot?#iefix') format('embedded-opentype'),
+    url('GeistMono-Light.woff2') format('woff2'),
+    url('GeistMono-Light.woff') format('woff'),
+    url('GeistMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('GeistMono-Regular.eot');
+    src: local('Geist Mono Regular'), local('GeistMono-Regular'),
+    url('GeistMono-Regular.eot?#iefix') format('embedded-opentype'),
+    url('GeistMono-Regular.woff2') format('woff2'),
+    url('GeistMono-Regular.woff') format('woff'),
+    url('GeistMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('GeistMono-Bold.eot');
+    src: local('Geist Mono Bold'), local('GeistMono-Bold'),
+    url('GeistMono-Bold.eot?#iefix') format('embedded-opentype'),
+    url('GeistMono-Bold.woff2') format('woff2'),
+    url('GeistMono-Bold.woff') format('woff'),
+    url('GeistMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('GeistMono-Italic.eot');
+    src: local('Geist Mono Italic'), local('GeistMono-Italic'),
+    url('GeistMono-Italic.eot?#iefix') format('embedded-opentype'),
+    url('GeistMono-Italic.woff2') format('woff2'),
+    url('GeistMono-Italic.woff') format('woff'),
+    url('GeistMono-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('GeistMono-BoldItalic.eot');
+    src: local('Geist Mono Bold Italic'), local('GeistMono-BoldItalic'),
+    url('GeistMono-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('GeistMono-BoldItalic.woff2') format('woff2'),
+    url('GeistMono-BoldItalic.woff') format('woff'),
+    url('GeistMono-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('GeistMono-LightItalic.eot');
+    src: local('Geist Mono Light Italic'), local('GeistMono-LightItalic'),
+    url('GeistMono-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('GeistMono-LightItalic.woff2') format('woff2'),
+    url('GeistMono-LightItalic.woff') format('woff'),
+    url('GeistMono-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}

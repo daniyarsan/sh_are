@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('GeistSans-Light.eot');
+    src: local('Geist Sans Light'), local('GeistSans-Light'),
+    url('GeistSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('GeistSans-Light.woff2') format('woff2'),
+    url('GeistSans-Light.woff') format('woff'),
+    url('GeistSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('GeistSans-Regular.eot');
+    src: local('Geist Sans Regular'), local('GeistSans-Regular'),
+    url('GeistSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('GeistSans-Regular.woff2') format('woff2'),
+    url('GeistSans-Regular.woff') format('woff'),
+    url('GeistSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('GeistSans-Bold.eot');
+    src: local('Geist Sans Bold'), local('GeistSans-Bold'),
+    url('GeistSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('GeistSans-Bold.woff2') format('woff2'),
+    url('GeistSans-Bold.woff') format('woff'),
+    url('GeistSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('GeistSans-Italic.eot');
+    src: local('Geist Sans Italic'), local('GeistSans-Italic'),
+    url('GeistSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('GeistSans-Italic.woff2') format('woff2'),
+    url('GeistSans-Italic.woff') format('woff'),
+    url('GeistSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('GeistSans-BoldItalic.eot');
+    src: local('Geist Sans Bold Italic'), local('GeistSans-BoldItalic'),
+    url('GeistSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('GeistSans-BoldItalic.woff2') format('woff2'),
+    url('GeistSans-BoldItalic.woff') format('woff'),
+    url('GeistSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('GeistSans-LightItalic.eot');
+    src: local('Geist Sans Light Italic'), local('GeistSans-LightItalic'),
+    url('GeistSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('GeistSans-LightItalic.woff2') format('woff2'),
+    url('GeistSans-LightItalic.woff') format('woff'),
+    url('GeistSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
