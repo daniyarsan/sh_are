@@ -25,7 +25,6 @@ export default function RegistrationForm() {
       login: '',
       password: '',
       password_confirmation: '',
-      hcaptcha: '',
       _token: csrf_token,
     },
   });
@@ -33,7 +32,6 @@ export default function RegistrationForm() {
   const { setData, post, data } = useInertiaForm({
     login: '',
     password: '',
-    hcaptcha: '',
     _token: csrf_token,
   });
 
@@ -55,10 +53,8 @@ export default function RegistrationForm() {
   });
 
   const onSubmit = () => {
-    const { hcaptcha } = form.getValues();
-    if (hcaptcha) {
-      post(route('register'));
-    }
+    post(route('register'));
+
   };
 
   return (
